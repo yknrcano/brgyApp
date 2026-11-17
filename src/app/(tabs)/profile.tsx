@@ -1,5 +1,5 @@
-import { SectionScreen } from '@/components/SectionScreen';
+import ProfileContent from '@/screens/ProfileScreen';
 
 export default function ProfileScreen() {
-  return 
+  return <ProfileContent />;
 }

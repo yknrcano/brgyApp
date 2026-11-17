@@ -1,5 +1,5 @@
-import { SectionScreen } from '@/components/SectionScreen';
+import RequirementsContent from '@/screens/RequirementsScreen';
 
 export default function RequirementsScreen() {
-  return
+  return <RequirementsContent />;
 }

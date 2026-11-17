@@ -22,7 +22,16 @@
     },
     "plugins": [
       "expo-status-bar",
-      "expo-router"
+      "expo-router",
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Barangay App to access your photos so you can attach proof to a concern.",
+          "cameraPermission": "Allow Barangay App to use your camera so you can capture proof for a concern.",
+          "microphonePermission": false
+        }
+      ]
     ]
   }
 }

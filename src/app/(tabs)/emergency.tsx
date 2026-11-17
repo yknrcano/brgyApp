@@ -1,5 +1,5 @@
-import { SectionScreen } from '@/components/SectionScreen';
+import EmergencyContent from '@/screens/EmergencyScreen';
 
 export default function EmergencyScreen() {
-  return
+  return <EmergencyContent />;
 }

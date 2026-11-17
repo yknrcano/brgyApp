@@ -1,5 +1,5 @@
-import { SectionScreen } from '@/components/SectionScreen';
+import ConcernsContent from '@/screens/ConcernsScreen';
 
 export default function ConcernsScreen() {
-  return
+  return <ConcernsContent />;
 }

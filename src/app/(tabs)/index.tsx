@@ -1,5 +1,5 @@
-import { SectionScreen } from '@/components/SectionScreen';
+import HomeContent from '@/screens/HomeScreen';
 
 export default function HomeScreen() {
-  return
+  return <HomeContent />;
 }
